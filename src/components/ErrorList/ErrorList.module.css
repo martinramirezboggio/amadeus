@@ -1,0 +1,56 @@
+.ErrorsWrapper {
+    margin-top: 20px;
+}
+
+.ErrorContent {
+    padding-bottom: 3%;
+}
+
+.Header {
+    margin-left: 5%;
+    display: flex;
+    width: 96%;
+    position: relative;
+    cursor: pointer;
+}
+
+.ErrorTitle {
+    width: 70%;
+}
+
+.ErrorTitle h1{
+    margin: 2% 0 0 0;
+    font-size: 3em;
+    color: #13293d;
+}
+
+.ErrorMessage {
+    margin: 5px 0 0 0;
+    font-size: .7em;
+    color:#247ba0;
+}
+
+.ErrorCount {
+    width: 30%;
+    right: 0;
+    position: absolute;
+    height: 100%;
+}
+
+.ErrorNumber {
+    width: 100%;
+    height: 80%;
+    font-size: 4em;
+    color:#a63a50;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+}
+
+.Separator {
+    height: 90%;
+    border-right: 1px solid #d8e2dc;
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 3%;
+}

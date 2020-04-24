@@ -1,0 +1,27 @@
+.Error {
+    padding-left:4%;
+    display: flex;
+    border-bottom: 1px solid #d8e2dc;
+    position: relative;
+}
+
+.Error h4 {
+    color: #13293d;
+    margin: 10px 0 0 0;
+}
+
+
+.Error p {
+    color: #247ba0;
+    margin: 5px 0;
+    font-size: .7em;
+}
+
+.deleteButton {
+    color: #a63a50;
+    font-size: 1.6em;
+    position: absolute;
+    right: 5%;
+    margin-top: 10px;
+    cursor: pointer;
+}

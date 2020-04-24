@@ -1,0 +1,55 @@
+.Auth {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.FormInputs {
+    padding:10px 0 20px 0;
+    text-align: center;
+}
+
+.Input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #247ba0;
+    color: #13293d;
+    padding-bottom: 5px;
+    width: 80%;
+    font-size: 1em;
+    margin: 20px 0 0 0;
+    background-color: transparent;
+}
+
+.Input:focus {
+    border-color: #13293d;
+}
+
+.SubmitButton {
+    background-color: #247ba0;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 80%;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media (min-width:500px) {
+    .Auth {
+        width: 70%;
+    }
+}
+
+@media (min-width:680px) {
+    .Auth {
+        width: 40%;
+    }
+}
+
+@media (min-width:1400px) {
+    .Auth {
+        width: 25%;
+    }
+}
